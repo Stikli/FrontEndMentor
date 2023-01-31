@@ -1,8 +1,8 @@
 /****Tag selectors****/
 body {
-  margin-top: 60px;
   text-align: center;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(104, 169, 255, 0.281);
 }
 
 h1 {
@@ -19,36 +19,29 @@ p {
 
 
 /****Class selectors****/
-
-.qr-container {
-  width: 1600px;
-  height: 800px;
-  background-color: rgba(104, 169, 255, 0.281);
-  margin: auto;
-  display: flex;
-}
-
 .qr-content {
-  margin: auto;
   background-color: white;
-  width: 280px;
-  height: 450px;
+  margin: auto;
+  width: 15%;
+  padding: 10px;
+  top: 50%;
+  transform: translate(0, 50%);
   border-radius: 10px;
 }
 
 .qr-code {
-  width: 250px;
+  width: 95%;
   position: relative;
-  top: 15px;
+  top: 5px;
   border-radius: 10px;
 }
 
 .qr-content-desciprtion {
-  width: 250px;
+  width: 90%;
   margin-top: 30px;
 }
 
 .qr-content-desciprtion2 {
-  width: 235px;
+  width: 90%;
 }
 
